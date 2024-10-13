@@ -1,0 +1,9 @@
+[build]
+target = "x86.json"
+
+[target.'cfg(target_os = "none")']
+runner = "qemu-system-i386 -kernel "
+
+[unstable]
+build-std-features = ["compiler-builtins-mem"]
+build-std = ["core", "compiler_builtins"]

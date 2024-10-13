@@ -1,0 +1,2 @@
+[toolchain]
+channel = "nightly-2024-10-07-aarch64-apple-darwin"
